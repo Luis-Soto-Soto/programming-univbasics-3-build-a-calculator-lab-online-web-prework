@@ -23,8 +23,8 @@ def multiplication(num1, num2)
 end
 
 def modulo(num1, num2)
-  num1.remainder
-
+  result = num1.remainder(num2)
+  p result
 end
 
 def square_root(num)
